@@ -1,93 +1,93 @@
 html, body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 
-    background: radial-gradient(circle, white 5%, pink 30%, purple 100%);
+  background: radial-gradient(circle, white 5%, pink 30%, purple 100%);
 }
 
 a {
-    text-decoration: none;
-    color: #666;
-    font-family: "Doto";
+  text-decoration: none;
+  color: #666;
+  font-family: "Doto";
 }
 
 a:hover {
-    text-decoration: none;
-    color: black;
-    font-family: "Doto";
+  text-decoration: none;
+  color: black;
+  font-family: "Doto";
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10rem 0 0 0;
-    width: 100%;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  flex-direction: column;
 }
 
 .title {
-    font-size: 36px;
-    margin: 1rem;
-    text-align: center;
-    font-family: "Doto";
+  font-size: 36px;
+  margin: 1rem;
+  text-align: center;
+  font-family: "Doto";
 }
 .under_construction{
-    font-size: 1.6rem;
-    margin: 1rem 1rem;
-    color: black;
-    font-family: "Doto";
+  font-size: 1.6rem;
+  margin: 1rem 1rem;
+  color: black;
+  font-family: "Doto";
 }
 
 .instagram_link {
-    font-size: 1.5rem;
-    margin: 1rem 1rem;
-    color: black;
-    font-family: "Doto";
+  font-size: 1.5rem;
+  margin: 1rem 1rem;
+  color: black;
+  font-family: "Doto";
 }
 
 .portfolio_link {
-    font-size: 1.5rem;
-    margin: 1rem 1rem;
-    color: black;
-    font-family: "Doto";
+  font-size: 1.5rem;
+  margin: 1rem 1rem;
+  color: black;
+  font-family: "Doto";
 }
 
 .subtitle_container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap; /* Allow items to wrap on small screens */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow items to wrap on small screens */
 }
 
 .img_duck_container {
-    display: flex;
-    justify-content: center;
-    width: 100%; /* Center the image container */
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Center the image container */
 }
 
 .img_duck {
-    width: 15rem;
-    height: 7rem;
+  width: 15rem;
+  height: 7rem;
 }
 
 @media only screen and (max-width: 1024px) {
-    .subtitle_container {
-        flex-direction: column; /* Change to column on smaller screens */
-    }
+  .subtitle_container {
+      flex-direction: column; /* Change to column on smaller screens */
+  }
 
-    /* Make the duck image appear as the last item in the subtitle container */
-    .img_duck_container {
-        order: 2; /* Reorder to be the last item */
-    }
+  /* Make the duck image appear as the last item in the subtitle container */
+  .img_duck_container {
+      order: 2; /* Reorder to be the last item */
+  }
 
-    .Instagram_link {
-        order: 1; /* Keep the subtitles as the first items */
-    }
+  .Instagram_link {
+      order: 1; /* Keep the subtitles as the first items */
+  }
 
-    .img_duck {
-        margin-top: 1rem; /* Add space between the gif and the subtitle links */
-    }
+  .img_duck {
+      margin-top: 1rem; /* Add space between the gif and the subtitle links */
+  }
 }
